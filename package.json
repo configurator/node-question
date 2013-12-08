@@ -1,6 +1,6 @@
 {
   "name": "simple-question",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A method to ask an interactive command-line user and wait for a response",
   "main": "question.js",
   "repository": "https://github.com/configurator/node-question",
