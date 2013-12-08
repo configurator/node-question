@@ -32,4 +32,4 @@ Available options are:
                 If both this callback and a global callback exists, the global callback will receive this callback's result as input
     }
 
-For a simple, yet mostly complete, see (example.js)[https://github.com/configurator/node-question/blob/master/example.js].
+For a simple, yet mostly complete, see [example.js](https://github.com/configurator/node-question/blob/master/example.js).
