@@ -1,0 +1,12 @@
+{
+  "name": "stdin-question",
+  "version": "1.0.0",
+  "description": "A method to ask an interactive command-line user and wait for a response",
+  "main": "question.js",
+  "repository": "",
+  "author": "Dor Kleiman <configurator@gmail.com>",
+  "dependencies": {
+    "keypress": "~0.2.1"
+  }
+}
+
