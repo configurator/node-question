@@ -32,7 +32,7 @@ var arrayToObject = function (array) {
 //
 //      prompt {undefined}: The question to ask the user
 //
-//      inputs {[]}: either
+//      inputs {undefined}: either
 //        - A string or array of valid inputs, e.g. 'yni' or ['y', 'n', 'i'] for a "[Y]es, [No], [I]gnore" query
 //        - An object with each key as the input and its value as a callback to be executed when pressed.
 //              If both this callback and a global callback exists, the global callback will receive this callback's result as input
