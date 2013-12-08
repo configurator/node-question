@@ -41,7 +41,7 @@ var question = function (options, callback) {
     callback = callback || options.callback;
     var stdin = options.stdin || process.stdin,
         stdout = options.stdout || process.stdout,
-        caseFix = options.caseSensitive ? identity : function (x) { return x.toLowerCase(); },
+        caseFix = options.caseSensitive ? identity : function (x) { return (x || '').toLowerCase(); },
         prompt = options.prompt,
         inputs = arrayToObject(options.inputs),
         
