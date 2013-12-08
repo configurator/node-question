@@ -1,5 +1,5 @@
 {
-  "name": "stdin-question",
+  "name": "simple-question",
   "version": "1.0.0",
   "description": "A method to ask an interactive command-line user and wait for a response",
   "main": "question.js",
